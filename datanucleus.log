@@ -1,0 +1,383 @@
+10:38:23,587 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+10:48:04,667 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+10:55:34,426 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+10:58:28,129 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jpa.JPAAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jpa.JPAAdapter.<clinit>(JPAAdapter.java:61)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+11:18:51,344 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jpa.JPAAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jpa.JPAAdapter.<clinit>(JPAAdapter.java:61)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+11:29:37,731 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/C:/Users/EPineiro/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar refers to it.
+11:29:37,748 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jpa.JPAAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jpa.JPAAdapter.<clinit>(JPAAdapter.java:61)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+11:30:34,072 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/C:/Users/EPineiro/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar refers to it.
+11:30:34,103 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+11:31:47,615 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/C:/Users/EPineiro/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar refers to it.
+11:31:47,643 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+11:57:09,212 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/C:/Users/EPineiro/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar refers to it.
+11:57:09,247 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+14:48:44,165 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/C:/Users/EPineiro/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar refers to it.
+14:48:44,166 (main) WARN  [DataNucleus.General] - Extension Point "org.datanucleus.store_datastoreadapter" not registered, but plugin "org.datanucleus.store.rdbms" defined in file:/C:/Users/EPineiro/.m2/repository/org/datanucleus/datanucleus-rdbms/3.1.3/datanucleus-rdbms-3.1.3.jar refers to it.
+14:48:44,187 (main) ERROR [DataNucleus.Persistence] - Error : An error occurred trying to instantiate an instance of the API adapter "org.datanucleus.api.jdo.JDOAdapter" (perhaps you dont have the requisite datanucleus-api-XXX jar in the CLASSPATH, or the api jar for the persistence spec you are using?) : {1}
+java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/datanucleus/util/Localiser;
+	at org.datanucleus.api.jdo.JDOAdapter.<clinit>(JDOAdapter.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:606)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.api.ApiAdapterFactory.getApiAdapter(ApiAdapterFactory.java:88)
+	at org.datanucleus.AbstractNucleusContext.<init>(AbstractNucleusContext.java:115)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:48)
+	at org.datanucleus.enhancer.EnhancementNucleusContextImpl.<init>(EnhancementNucleusContextImpl.java:37)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.<init>(DataNucleusEnhancer.java:161)
+	at org.datanucleus.enhancer.CommandLineHelper.createDataNucleusEnhancer(CommandLineHelper.java:148)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.main(DataNucleusEnhancer.java:1108)
+14:50:33,172 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:50:33,459 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:50:33,699 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+14:50:33,719 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=177 ms, enhance=81 ms, total=258 ms. Consult the log for full details
+14:52:42,049 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:52:42,299 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:52:42,550 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+14:52:42,570 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=182 ms, enhance=86 ms, total=268 ms. Consult the log for full details
+14:53:43,441 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:53:43,687 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:53:43,904 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+14:53:43,905 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=180 ms, enhance=35 ms, total=215 ms. Consult the log for full details
+15:11:51,851 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:11:52,123 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:11:52,356 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:11:52,356 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=191 ms, enhance=40 ms, total=231 ms. Consult the log for full details
+15:13:57,109 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:13:57,363 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:13:57,593 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:13:57,593 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=190 ms, enhance=38 ms, total=228 ms. Consult the log for full details
+15:24:59,126 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:24:59,389 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:24:59,621 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:24:59,622 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=187 ms, enhance=44 ms, total=231 ms. Consult the log for full details
+15:30:48,564 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:30:49,017 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:30:49,452 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+15:30:49,479 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=325 ms, enhance=135 ms, total=460 ms. Consult the log for full details
+15:32:04,106 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:32:04,382 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:32:04,606 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:32:04,606 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=188 ms, enhance=34 ms, total=222 ms. Consult the log for full details
+15:54:38,617 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:54:38,867 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:54:39,092 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:54:39,092 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=188 ms, enhance=35 ms, total=223 ms. Consult the log for full details
+16:40:30,011 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+16:40:30,255 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+16:40:30,495 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+16:40:30,515 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=180 ms, enhance=80 ms, total=260 ms. Consult the log for full details
+08:30:27,668 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+08:30:27,967 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+08:30:28,248 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+08:30:28,248 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=212 ms, enhance=67 ms, total=279 ms. Consult the log for full details
+08:38:00,089 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+08:38:00,329 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+08:38:00,565 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+08:38:00,565 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=200 ms, enhance=36 ms, total=236 ms. Consult the log for full details
+08:41:32,308 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+08:41:32,581 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+08:41:32,833 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+08:41:32,833 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=216 ms, enhance=34 ms, total=250 ms. Consult the log for full details
+08:49:39,831 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+08:49:40,064 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+08:49:40,281 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+08:49:40,281 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=175 ms, enhance=40 ms, total=215 ms. Consult the log for full details
+08:55:33,288 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+08:55:33,569 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+08:55:33,814 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+08:55:33,814 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=208 ms, enhance=35 ms, total=243 ms. Consult the log for full details
+12:15:32,006 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:15:32,266 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:15:32,506 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:15:32,506 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=210 ms, enhance=30 ms, total=240 ms. Consult the log for full details
+16:02:33,908 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+16:02:34,188 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+16:02:34,448 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+16:02:34,468 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=200 ms, enhance=80 ms, total=280 ms. Consult the log for full details
+16:17:44,179 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+16:17:44,419 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+16:17:44,679 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+16:17:44,679 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 1 classes. Timings : input=210 ms, enhance=40 ms, total=250 ms. Consult the log for full details
+11:04:01,217 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:04:01,473 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:04:01,753 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+11:04:01,779 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\User.class" with enhanced definition
+11:04:01,798 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=222 ms, enhance=102 ms, total=324 ms. Consult the log for full details
+11:14:19,548 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:14:19,799 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:14:20,048 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+11:14:20,051 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+11:14:20,051 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=212 ms, enhance=38 ms, total=250 ms. Consult the log for full details
+11:16:06,922 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:16:07,179 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:16:07,419 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+11:16:07,421 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+11:16:07,421 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=208 ms, enhance=32 ms, total=240 ms. Consult the log for full details
+11:31:20,896 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:31:21,152 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:31:21,418 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+11:31:21,420 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+11:31:21,421 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=229 ms, enhance=38 ms, total=267 ms. Consult the log for full details
+11:40:41,190 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:40:41,462 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:40:41,735 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+11:40:41,738 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+11:40:41,739 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=230 ms, enhance=45 ms, total=275 ms. Consult the log for full details
+11:44:11,501 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:44:11,747 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:44:12,004 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+11:44:12,005 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+11:44:12,006 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=223 ms, enhance=33 ms, total=256 ms. Consult the log for full details
+12:21:27,173 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:21:27,419 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:21:27,699 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+12:21:27,725 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\User.class" with enhanced definition
+12:21:27,745 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=221 ms, enhance=103 ms, total=324 ms. Consult the log for full details
+12:26:17,336 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:26:17,586 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:26:17,847 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:26:17,850 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:26:17,851 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=230 ms, enhance=32 ms, total=262 ms. Consult the log for full details
+12:31:14,185 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:31:14,436 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:31:14,696 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:31:14,698 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:31:14,698 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=229 ms, enhance=31 ms, total=260 ms. Consult the log for full details
+12:36:02,954 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:36:03,204 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:36:03,449 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:36:03,451 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:36:03,451 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=210 ms, enhance=35 ms, total=245 ms. Consult the log for full details
+12:43:34,252 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:43:34,505 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:43:34,803 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:43:34,806 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:43:34,807 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=260 ms, enhance=39 ms, total=299 ms. Consult the log for full details
+12:48:58,602 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:48:58,850 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:48:59,116 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:48:59,118 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:48:59,118 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=233 ms, enhance=33 ms, total=266 ms. Consult the log for full details
+12:51:17,703 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:51:17,960 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:51:18,212 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:51:18,214 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:51:18,215 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=218 ms, enhance=34 ms, total=252 ms. Consult the log for full details
+13:13:39,130 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+13:13:39,377 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+13:13:39,637 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+13:13:39,640 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+13:13:39,640 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=226 ms, enhance=35 ms, total=261 ms. Consult the log for full details
+13:22:21,693 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+13:22:21,945 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+13:22:22,228 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+13:22:22,255 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\User.class" with enhanced definition
+13:22:22,275 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=225 ms, enhance=104 ms, total=329 ms. Consult the log for full details
+13:47:45,391 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+13:47:45,641 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+13:47:45,902 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+13:47:45,904 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+13:47:45,905 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=229 ms, enhance=32 ms, total=261 ms. Consult the log for full details
+13:52:43,554 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+13:52:43,799 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+13:52:44,071 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+13:52:44,073 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+13:52:44,073 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=239 ms, enhance=33 ms, total=272 ms. Consult the log for full details
+14:01:40,028 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:01:40,278 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:01:40,731 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+14:01:40,734 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+14:01:40,734 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=388 ms, enhance=65 ms, total=453 ms. Consult the log for full details
+15:09:44,368 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:09:44,623 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:09:44,890 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:09:44,893 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+15:09:44,894 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=237 ms, enhance=32 ms, total=269 ms. Consult the log for full details
+11:03:54,364 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:03:54,607 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:03:54,877 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+11:03:54,879 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+11:03:54,880 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=238 ms, enhance=32 ms, total=270 ms. Consult the log for full details
+11:50:44,039 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+11:50:44,309 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+11:50:44,645 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+11:50:44,673 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\User.class" with enhanced definition
+11:50:44,695 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=267 ms, enhance=118 ms, total=385 ms. Consult the log for full details
+12:32:56,918 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:32:57,170 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:32:57,477 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\BlogEntry.class" with enhanced definition
+12:32:57,503 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\EPineiro\Documents\Desarrollo\WebDevCourse\ProblemSet3\problemset3\target\problemset3-1.0-SNAPSHOT\WEB-INF\classes\com\udacity\webdev\entities\User.class" with enhanced definition
+12:32:57,523 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=246 ms, enhance=106 ms, total=352 ms. Consult the log for full details
+12:38:39,375 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:38:39,652 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:38:39,984 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:38:39,986 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:38:39,987 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=291 ms, enhance=41 ms, total=332 ms. Consult the log for full details
+12:41:33,348 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:41:33,598 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:41:33,862 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:41:33,864 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:41:33,864 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=233 ms, enhance=31 ms, total=264 ms. Consult the log for full details
+12:50:18,974 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:50:19,220 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:50:19,494 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:50:19,496 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:50:19,496 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=243 ms, enhance=31 ms, total=274 ms. Consult the log for full details
+12:55:46,497 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+12:55:46,748 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+12:55:47,090 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+12:55:47,091 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+12:55:47,092 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=302 ms, enhance=39 ms, total=341 ms. Consult the log for full details
+14:51:54,181 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:51:54,431 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:51:54,792 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+14:51:54,794 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+14:51:54,794 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=329 ms, enhance=32 ms, total=361 ms. Consult the log for full details
+14:55:15,112 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:55:15,360 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:55:15,650 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+14:55:15,651 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+14:55:15,652 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=255 ms, enhance=32 ms, total=287 ms. Consult the log for full details
+14:56:48,413 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+14:56:48,845 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+14:56:49,272 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+14:56:49,275 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+14:56:49,275 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=379 ms, enhance=48 ms, total=427 ms. Consult the log for full details

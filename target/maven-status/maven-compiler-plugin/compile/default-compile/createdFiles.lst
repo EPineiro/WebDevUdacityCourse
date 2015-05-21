@@ -1,0 +1,4 @@
+com\udacity\webdev\BlogFrontPageServlet.class
+com\udacity\webdev\entities\BlogEntry.class
+com\udacity\webdev\entities\EMF.class
+com\udacity\webdev\NewPostServlet.class
