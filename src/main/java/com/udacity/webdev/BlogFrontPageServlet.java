@@ -18,7 +18,7 @@ public class BlogFrontPageServlet extends HttpServlet {
 		
 		BlogEntryService service = new BlogEntryService();
 		
-		List<BlogEntry> entries = service.getEntries(10);
+		List<BlogEntry> entries = service.getEntries(false);
 		
 		req.setAttribute("entries", entries);
 		getServletContext().getRequestDispatcher("/frontpage.jsp").forward(req, resp);

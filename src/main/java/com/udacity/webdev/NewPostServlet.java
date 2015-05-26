@@ -1,19 +1,16 @@
 package com.udacity.webdev;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.persistence.EntityManager;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.udacity.webdev.entities.BlogEntry;
-import com.udacity.webdev.entities.EMF;
+import com.udacity.webdev.services.BlogEntryService;
 
 public class NewPostServlet extends HttpServlet {
 
@@ -34,25 +31,11 @@ public class NewPostServlet extends HttpServlet {
 		}
 		else {
 			
-			EntityManager em = EMF.get().createEntityManager();
-			BlogEntry entry = createBlogEntry(req);
-			
-			em.persist(entry);
-			em.close();
+			BlogEntryService service = new BlogEntryService();
+			BlogEntry entry = service.createBlogEntry(req);
 			
 			resp.sendRedirect("/blog/" + entry.getId());
 		}
-	}
-
-	private BlogEntry createBlogEntry(HttpServletRequest req) {
-		
-		BlogEntry entry = new BlogEntry();
-		
-		entry.setSubject(req.getParameter("subject"));
-		entry.setContent(req.getParameter("content"));
-		entry.setDate(new Date());
-		
-		return entry;
 	}
 
 	private Map<String, String> validateRequest(HttpServletRequest req) {

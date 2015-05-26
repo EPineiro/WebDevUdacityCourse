@@ -381,3 +381,23 @@ java.lang.NoSuchMethodError: org.datanucleus.util.Localiser.getInstance(Ljava/la
 14:56:49,272 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
 14:56:49,275 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
 14:56:49,275 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=379 ms, enhance=48 ms, total=427 ms. Consult the log for full details
+15:03:00,505 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:03:00,768 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:03:01,063 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:03:01,065 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+15:03:01,065 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=262 ms, enhance=33 ms, total=295 ms. Consult the log for full details
+15:35:55,648 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:35:55,897 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:35:56,198 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:35:56,200 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+15:35:56,200 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=271 ms, enhance=31 ms, total=302 ms. Consult the log for full details
+15:50:42,922 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:50:43,176 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:50:43,451 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:50:43,452 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+15:50:43,452 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=244 ms, enhance=30 ms, total=274 ms. Consult the log for full details
+15:52:54,631 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+15:52:54,883 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+15:52:55,188 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.BlogEntry" is already enhanced.
+15:52:55,189 (main) INFO  [DataNucleus.Enhancer] - Class "com.udacity.webdev.entities.User" is already enhanced.
+15:52:55,190 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=273 ms, enhance=31 ms, total=304 ms. Consult the log for full details

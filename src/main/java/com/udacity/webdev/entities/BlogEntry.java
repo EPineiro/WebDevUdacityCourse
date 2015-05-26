@@ -1,5 +1,6 @@
 package com.udacity.webdev.entities;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -10,7 +11,9 @@ import javax.persistence.Id;
 import com.google.appengine.api.datastore.Key;
 
 @Entity
-public class BlogEntry {
+public class BlogEntry implements Serializable {
+
+	private static final long serialVersionUID = 7617471041910653788L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
